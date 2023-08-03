@@ -53,6 +53,10 @@
     align-items: center;
     padding: 15px;
 }
+
+.card_footer a {
+    text-decoration: none;
+}
 .card_footer_title {
     margin: 5px;
     /* font-size: ; */
@@ -72,6 +76,7 @@
     align-items: center;
     cursor: pointer;
     transition: filter,transform 500ms ease;
+
 }
 .card_button:hover {
     filter: brightness(1.25);
